@@ -18,7 +18,7 @@ export default function ShopingAccount() {
           <Tabs defaultValue='orders'>
             <TabsList>
               <TabsTrigger value='address' className='px-4 py-1 border ml-2'>Address</TabsTrigger>
-              <TabsTrigger value='orders' className='px-4 py-1 border ml-2'>Orders</TabsTrigger>
+              <TabsTrigger value='orders' className='px-4 py-1 border ml-2'>Orders </TabsTrigger>
             </TabsList>
             <TabsContent value='orders'>
               <ShopingOrder/>
