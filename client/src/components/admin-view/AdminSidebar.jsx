@@ -39,17 +39,19 @@ function MenuItems({setopen}){
   const navigate = useNavigate()
   return <nav className="mt-8 flex flex-col gap-2">
             {
-              adminSidebarMenuItems.map((menuItem, index) =><div onClick={()=>navigate(menuItem.path)} 
-              key={index} 
-              // eslint-disable-next-line react/jsx-no-duplicate-props
-              onClick ={()=>{
-                navigate(menuItem.path)
-                setopen ? setopen(false) : null
-              }}
-              className="flex items-center gap-4 rounded-md px-3 py-2 cursor-pointer text-slate-800 hover:bg-slate-200 hover:font-semibold transition-all">
-                {menuItem.icons}
-                <span>{menuItem.label}</span>
-              </div>)
+              adminSidebarMenuItems.map((menuItem, index) => (
+                <div 
+                  key={index}
+                  onClick={() => {
+                    navigate(menuItem.path);
+                    if (setopen) setopen(false);  // Ensure setopen is called only when needed
+                  }}
+                  className="flex items-center gap-4 rounded-md px-3 py-2 cursor-pointer text-slate-800 hover:bg-slate-200 hover:font-semibold transition-all"
+                >
+                  {menuItem.icons}
+                  <span>{menuItem.label}</span>
+                </div>
+              ))
             }
          </nav>
 }
