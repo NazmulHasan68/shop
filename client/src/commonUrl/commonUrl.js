@@ -1,3 +1,3 @@
-const backendDomin = "http://localhost:5000"
+const backendDomin = "https://shop-17b2.onrender.com"
 
 export default backendDomin
