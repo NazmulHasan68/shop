@@ -1,6 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@radix-ui/react-tabs'
 import accImage from '../../assets/account/banner1.jpg'
-import ShopingOrder from '@/components/shopping-view/ShopingOrder'
+import ShopingOrder from '@/components/shopping-view/Shopingorder'
 import Address from '@/components/shopping-view/Address'
 export default function ShopingAccount() {
   return (
