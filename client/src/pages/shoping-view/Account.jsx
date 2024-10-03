@@ -1,7 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@radix-ui/react-tabs'
 import accImage from '../../assets/account/banner1.jpg'
 import Address from '@/components/shopping-view/Address'
-import ShopingOrder from '@/components/shopping-view/ShopingOrder'
+// import ShopingOrder from '@/components/shopping-view/ShopingOrder'
 export default function ShopingAccount() {
   return (
     <div className="flex flex-col">
@@ -21,7 +21,7 @@ export default function ShopingAccount() {
               <TabsTrigger value='orders' className='px-4 py-1 border ml-2'>Orders </TabsTrigger>
             </TabsList>
             <TabsContent value='orders'>
-              <ShopingOrder/>
+              {/* <ShopingOrder/> */}
             </TabsContent>
             <TabsContent value='address'>
               <Address/>
