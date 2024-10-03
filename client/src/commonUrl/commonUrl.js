@@ -1,3 +1,3 @@
-const backendDomin = "https://shop-eeu3gzb4n-nazmul-hasans-projects-6bbbdf9e.vercel.app"
+const backendDomin = "https://shop-x6g1.onrender.com"
 
 export default backendDomin
