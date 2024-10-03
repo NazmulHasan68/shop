@@ -21,7 +21,7 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 app.use(cors({
-    origin : 'shop-pt52-foryvq8u4-nazmul-hasans-projects-6bbbdf9e.vercel.app', 
+    origin : 'https://newshop-xyfx.onrender.com', 
     methods : ['GET', 'POST', "DELETE", 'PUT'],
     allowedHeaders: [
         'Content-Type',
