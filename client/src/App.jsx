@@ -1,5 +1,5 @@
 
-import { Route, Routes } from "react-router-dom"
+import {NavLink, Route, Routes } from "react-router-dom"
 import AuthLayout from "./components/auth/layout"
 import AuthLogin from "./pages/auth/login"
 import AuthRegister from "./pages/auth/register"
@@ -69,6 +69,7 @@ function App() {
         <Route path="/unauth-page" element={<UnAuthPage/>}></Route>
 
       </Routes>
+         <NavLink to={'/auth/login'} className="px-4 py-1 rounded-full bg-green-800 text-white mr-4 w-36"> GO TO LOGIN</NavLink>
     </div>
   )
 }
