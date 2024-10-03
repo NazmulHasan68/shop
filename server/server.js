@@ -21,7 +21,7 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 app.use(cors({
-    origin : 'http://localhost:5173', 
+    origin : 'shop-pt52-foryvq8u4-nazmul-hasans-projects-6bbbdf9e.vercel.app', 
     methods : ['GET', 'POST', "DELETE", 'PUT'],
     allowedHeaders: [
         'Content-Type',
