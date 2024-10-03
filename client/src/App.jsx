@@ -39,7 +39,6 @@ function App() {
       {/* common component */}
 
       <Routes>
-          <Link to='/auth/login>Gogo login</Link>
         {/* this part is for authurization */}
         <Route path="/auth" element={<CheckAuth isAuthentication={isAuthentication} user={user}><AuthLayout/></CheckAuth>}>
             <Route path="login" element={<AuthLogin/>}/>
