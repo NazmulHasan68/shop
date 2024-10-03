@@ -1,7 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@radix-ui/react-tabs'
 import accImage from '../../assets/account/banner1.jpg'
-import ShopingOrder from '@/components/shopping-view/ShopingOrder'
 import Address from '@/components/shopping-view/Address'
+import ShopingOrder from '@/components/shopping-view/ShopingOrder'
 export default function ShopingAccount() {
   return (
     <div className="flex flex-col">
