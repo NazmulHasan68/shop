@@ -69,7 +69,7 @@ function App() {
         <Route path="/unauth-page" element={<UnAuthPage/>}></Route>
 
       </Routes>
-         <NavLink to={'/auth/login'} className="px-4 py-1 rounded-full bg-green-800 text-white mr-4 w-36"> GO TO LOGIN</NavLink>
+         <NavLink to={'/shop'} className="px-4 py-1 rounded-full bg-green-800 text-white mr-4 w-36"> GO TO LOGIN</NavLink>
     </div>
   )
 }
